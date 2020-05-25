@@ -38,7 +38,7 @@ def xjdatedeal(xjrowcount,k,srvalue):
     xjfianlSheet.cell(row=xjrowcount, column=2).value = fianlSheet.cell(row=k, column=2).value
     xjfianlSheet.cell(row=xjrowcount, column=3).value = fianlSheet.cell(row=k, column=4).value
     xjfianlSheet.cell(row=xjrowcount, column=5).value = fianlSheet.cell(row=k, column=6).value
-    xjfianlSheet.cell(row=xjrowcount, column=11).value = srvalue
+    xjfianlSheet.cell(row=xjrowcount, column=11).value = srvalue                              # 将数据写入现金流量表
     xjfianlSheet.cell(row=xjrowcount, column=12).value = srvalue
     xjfianlSheet.cell(row=xjrowcount, column=13).value = srvalue
 
